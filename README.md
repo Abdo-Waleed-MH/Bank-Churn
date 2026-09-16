@@ -308,6 +308,21 @@ The main notebook contains the complete analysis and implementation:
 
 It includes data exploration, feature engineering, preprocessing, model comparison, tuning, evaluation, feature importance, and model saving.
 
-## Author
+## Run it locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# only needed once, or whenever you want to retrain:
+python train_model.py
+
+python app.py
+```
+
+Then open **http://127.0.0.1:5000**.
+
+## Authors
 
 Abdulrahman
